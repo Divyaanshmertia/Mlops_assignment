@@ -32,7 +32,7 @@ jobs:
         run: docker run mlops-lab-image
 
       - name: Upload generated images
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: generated-images
           path: ./output/  # Adjust path to where images are saved
