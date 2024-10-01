@@ -35,5 +35,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: generated-images
-          path: ./output/  # Adjust path to where images are saved
+          path: ./app/*.png  # Adjust path to where images are saved
 
